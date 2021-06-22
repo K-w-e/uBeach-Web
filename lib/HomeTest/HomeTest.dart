@@ -120,7 +120,7 @@ class _HomeState extends State<HomeTest> {
                   )),
           SpeedDialChild(
               backgroundColor: Colors.cyan[400],
-              child: Icon(Icons.list),
+              child: Icon(Icons.settings),
               label: 'Modifica chalet',
               onTap: () => editChalet(widget.chalet)),
           /*SpeedDialChild(

@@ -27,13 +27,12 @@ class _AllOrdersState extends State<AllOrders> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Home"),
+          title: Text("Ordini"),
           backgroundColor: Colors.cyan[400],
         ),
         body: SingleChildScrollView(
           child: Column(
             children: [
-              Center(child: Text("Ordini")),
               FutureBuilder(
                   future: widget.orders,
                   builder: (BuildContext context, AsyncSnapshot snapshot) {
